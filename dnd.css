@@ -1,3 +1,5 @@
 input[type="text"]:disabled {
-  background: #ff3333;
+  background: #28235B;
+  color: white;
+  font-weight: bold;
 }
