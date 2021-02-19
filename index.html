@@ -20,11 +20,11 @@
 			<div class="d-flex flex-row">
 				<div class="col-3">
 				  <label for="txtAc" class="form-label">Enemy AC</label>
-				  <input type="text" class="form-control" id="txtAc" placeholder="10" oninput="calc()">
+				  <input type="number" class="form-control" id="txtAc" placeholder="10" min="-10" max="10" oninput="calc()">
 				</div>
 				<div class="col-3">
 				  <label for="txtThaco" class="form-label">THAC0</label>
-				  <input type="text" class="form-control" id="txtThaco" placeholder="19" oninput="calc()">
+				  <input type="number" class="form-control" id="txtThaco" min="1" max="20" placeholder="19" oninput="calc()">
 				</div>
 			</div>
 			<div class="d-flex flex-row">
@@ -40,7 +40,7 @@
 			<div class="d-flex flex-row">
 				<div class="col-3">
 				  <label for="txtOther" class="class="col-sm-1 col-form-label col-form-label-sm">Other Modifiers</label>
-				  <input type="text" class="form-control" id="txtOther" placeholder="0" oninput="calc()">
+				  <input type="number" class="form-control" id="txtOther" placeholder="0" oninput="calc()">
 				</div>
 				<div class="col-sm">
 				</div>
@@ -62,7 +62,7 @@
 				  <input type="text" class="form-control" id="txtWeapon1" placeholder="Weapon1">
 				</div>
 				<div class="col-sm-3">
-				  <input type="text" class="form-control" id="txtWMod1" placeholder="0" oninput="calc()">
+				  <input type="number" class="form-control" id="txtWMod1" placeholder="0" oninput="calc()">
 				</div>
 				<div class="col-sm-3">
 				  <input type="text" class="form-control" id="txtToHit1" disabled placeholder="0">
@@ -73,7 +73,7 @@
 				  <input type="text" class="form-control" id="txtWeapon2" placeholder="Weapon2">
 				</div>
 				<div class="col-sm-3">
-				  <input type="text" class="form-control" id="txtWMod2" placeholder="0" oninput="calc()">
+				  <input type="number" class="form-control" id="txtWMod2" placeholder="0" oninput="calc()">
 				</div>
 				<div class="col-sm-3">
 				  <input type="text" class="form-control" id="txtToHit2" disabled placeholder="0">
@@ -84,7 +84,7 @@
 				  <input type="text" class="form-control" id="txtWeapon3" placeholder="Weapon3">
 				</div>
 				<div class="col-sm-3">
-				  <input type="text" class="form-control" id="txtWMod3" placeholder="0" oninput="calc()">
+				  <input type="number" class="form-control" id="txtWMod3" placeholder="0" oninput="calc()">
 				</div>
 				<div class="col-sm-3">
 				  <input type="text" class="form-control" id="txtToHit3" disabled placeholder="0">
@@ -95,7 +95,7 @@
 				  <input type="text" class="form-control" id="txtWeapon4" placeholder="Weapon4">
 				</div>
 				<div class="col-sm-3">
-				  <input type="text" class="form-control" id="txtWMod4" placeholder="0" oninput="calc()">
+				  <input type="number" class="form-control" id="txtWMod4" placeholder="0" oninput="calc()">
 				</div>
 				<div class="col-sm-3">
 				  <input type="text" class="form-control" id="txtToHit4" disabled placeholder="0">
